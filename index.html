@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTok</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script type="module" crossorigin src="./assets/lib/swiper/swiper.js"></script>
+    <link rel="stylesheet" href="./assets/lib/swiper/swiper.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/icons/three-bar.svg" alt="Icon" onclick="toggleNavigation()" />
+        <a href="/">
+            <img src="./assets/img/logo.png" class="header-logo" alt="Logo" />
+        </a>
+    </header>
+
+    <div class="navigation" id="navigation">
+        <ul>
+            <li class="active"></li>
+            <li class="list ">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+
+
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+
+
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- <div class="box-comment"></div> -->
+
+    <div class="app-wrapper" id="app-wrapper">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <video controls autoplay loop>
+                            <source src="./assets/video/video1.mp4" type="video/mp4" />
+                        </video>
+
+                        <div class="slide-content">
+                            <h2>Guardians Of The Galaxy</h2>
+                            <p>
+                                A group of intergalactic criminals must pull together to stop
+                                a fanatical warrior with plans to purg the universe.
+                            </p>
+                        </div>
+
+                        <nav class="swiper-option-nav" onclick="a(this)">
+                            <div class="nav-content">
+                                <div class="toggle-btn">
+                                    <i class='bx bx-plus'></i>
+                                </div>
+                                <span style="--i:1;">
+                                    <a href="#"><i class='bx bxs-home'></i></a>
+                                </span>
+                                <span style="--i:2;">
+                                    <a href="#"><i class='bx bxs-camera'></i></a>
+                                </span>
+                                <span style="--i:3;">
+                                    <a href="#"><i class='bx bxs-alarm'></i></a>
+                                </span>
+                                <span style="--i:4;">
+                                    <a href="#"><i class='bx bxs-map'></i></a>
+                                </span>
+                                <span style="--i:5;">
+                                    <a href="#"><i class='bx bxs-cog'></i></a>
+                                </span>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/justice-league.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Justice League</h2>
+                            <p>
+                                Determined to ensure Superman's ultimate sacrifice was not in
+                                vain, Bruce Wayne aligns forces with Diana Prince with plans
+                                to recruit a team of metahumans to protect the world from an
+                                approaching threat of catastrophic proportions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/spider-man.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Spider-Man: Far from Home</h2>
+                            <p>
+                                Following the events of Avengers: Endgame (2019), Spider-Man
+                                must step up to take on new threats in a world that has
+                                changed forever.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/suicide-squad.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>The Suicide Squad</h2>
+                            <p>
+                                Supervillains Harley Quinn, Bloodsport, Peacemaker and a
+                                collection of nutty cons at Belle Reve prison join the
+                                super-secret, super-shady Task Force X as they are dropped off
+                                at the remote, enemy-infused island of Corto Maltese.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/thor-ragnarok.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Thor: Ragnarok</h2>
+                            <p>
+                                Imprisoned on the planet Sakaar, Thor must race against time
+                                to return to Asgard and stop Ragnarök, the destruction of his
+                                world, at the hands of the powerful and ruthless villain Hela.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/dr-strange.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Doctor Strange</h2>
+                            <p>
+                                America Chavez and a version of Stephen Strange are chased by
+                                a demon in the space between universes while searching for the
+                                Book of Vishanti
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/eternals.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Eternals</h2>
+                            <p>
+                                In 5000 BC, ten superpowered Eternals—Ajak, Sersi, Ikaris,
+                                Kingo, Sprite, Phastos, Makkari, Druig, Gilgamesh, and
+                                Thena—are sent by the Celestial Arishem to Earth on their
+                                starship, the Domo, to exterminate the invasive Deviants.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/guardians-of-the-galaxy.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Guardians Of The Galaxy</h2>
+                            <p>
+                                A group of intergalactic criminals must pull together to stop
+                                a fanatical warrior with plans to purge the universe.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/justice-league.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Justice League</h2>
+                            <p>
+                                Determined to ensure Superman's ultimate sacrifice was not in
+                                vain, Bruce Wayne aligns forces with Diana Prince with plans
+                                to recruit a team of metahumans to protect the world from an
+                                approaching threat of catastrophic proportions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/spider-man.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Spider-Man: Far from Home</h2>
+                            <p>
+                                Following the events of Avengers: Endgame (2019), Spider-Man
+                                must step up to take on new threats in a world that has
+                                changed forever.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/suicide-squad.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>The Suicide Squad</h2>
+                            <p>
+                                Supervillains Harley Quinn, Bloodsport, Peacemaker and a
+                                collection of nutty cons at Belle Reve prison join the
+                                super-secret, super-shady Task Force X as they are dropped off
+                                at the remote, enemy-infused island of Corto Maltese.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/thor-ragnarok.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Thor: Ragnarok</h2>
+                            <p>
+                                Imprisoned on the planet Sakaar, Thor must race against time
+                                to return to Asgard and stop Ragnarök, the destruction of his
+                                world, at the hands of the powerful and ruthless villain Hela.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/dr-strange.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Doctor Strange</h2>
+                            <p>
+                                America Chavez and a version of Stephen Strange are chased by
+                                a demon in the space between universes while searching for the
+                                Book of Vishanti
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-carousel-animate-opacity">
+                        <!-- <img src="https://carousel-slider.uiinitiative.com/images/eternals.jpg" alt="" /> -->
+                        <div class="slide-content">
+                            <h2>Eternals</h2>
+                            <p>
+                                In 5000 BC, ten superpowered Eternals—Ajak, Sersi, Ikaris,
+                                Kingo, Sprite, Phastos, Makkari, Druig, Gilgamesh, and
+                                Thena—are sent by the Celestial Arishem to Earth on their
+                                starship, the Domo, to exterminate the invasive Deviants.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
